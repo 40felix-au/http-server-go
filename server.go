@@ -6,3 +6,5 @@ import (
 )
 
 func helloHandler(w http.ResponseWriter, r *http.Request) {
+	fmt.Fprintf(w, "Hello from Go Server!")
+}
